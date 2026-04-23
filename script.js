@@ -33,8 +33,8 @@ if (techForm) {
     });
 }
 
-const audio = document.getElementById('techAudio');
-const img = document.getElementById('techImg');
+const audio = document.getElementById('audio.mp3');
+const img = document.getElementById('Photo.JPG');
 
 function playAudio() { 
     if (audio) audio.play(); 
@@ -49,7 +49,7 @@ function stopAudio() {
 
 function changeImage() {
     if (img) {
-        img.src = "https://picsum.photos/400/300";
+        img.src = "Photo.JPG";
         alert("Gambar galeri telah diperbarui!");
     }
 }
